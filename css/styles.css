@@ -1,0 +1,353 @@
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+}
+html { width:100%; height:100%; margin:0; padding:0; }
+body { width:100%; height:100%; margin:0; padding:0; }
+
+/* you can combine ids and classes to be more specific e.g.
+#title .container-fluid {
+  padding-left: 20px;
+} */
+.heading{
+  text-align: center;
+  color: white;
+
+}
+.description {
+
+  text-align: left;
+  color: white;
+}
+.meet-text {
+  text-align: center;
+  color:rgb(87, 169, 252);
+  text-decoration: underline;
+  padding: 3%;
+  text-decoration: none;
+}
+.meet-text:hover {
+  text-align: center;
+  color:dodgerblue;
+  text-decoration: underline;
+  padding: 3%;
+  text-decoration: none;
+}
+.color-me {
+  color: white;
+  font-size:1.2rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: calc(100% + 1vw + 1vh); */
+}
+.color-me:hover{
+  font-size:1.2rem;
+  color:red;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 990px) {
+  .color-me {
+    color: white;
+    font-size:1.8rem;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: calc(100% + 1vw + 1vh); */
+  }
+  .color-me:hover{
+    font-size:1.8rem;
+    color:red;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+.proud {
+  opacity: 0.7;
+  max-width: 50%;
+  max-height: 50%;
+}
+/* .page-holder {
+  min-height: 100%;
+} */
+
+.bg-cover {
+  background-size: cover !important;
+}
+.container-fluid {
+  padding: 3% 15% 8% 3%;
+}
+
+.big-heading {
+  size: 4.5rem;
+  line-height: 1.5;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.medium-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+.small-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.small-text{
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+/* about our gym */
+#about {
+  padding: 7%;
+  background-color: #0F1744;
+  text-align: center;
+}
+.about-text {
+  text-align: left;
+  color: white;
+
+  /* padding: 1rem; */
+}
+.about-photo {
+  border: 2px solid white;
+
+}
+
+/* Testimonial Text and Image */
+.testimonial-body{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  text-align:left;
+  color: white;
+  line-height: 1.5em;
+}
+.testimonial-name {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+.testimonial-image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+  }
+  #testimonials {
+    padding: 7% 7%;
+    /* text-align: center; */
+    background-color: #0F1744;
+    /* color: #fff; */
+  }
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+.icon {
+  color: #0F1744;
+  margin-bottom: 1rem;
+}
+/* .icon:hover{
+  color: red;
+} */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item {
+  padding-left:20px;
+  padding-right: 20px;
+
+}
+.nav-link {
+  font-size: 1.5rem;
+}
+.nav-link:hover{
+  font-size: 1.5rem;
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.footer-icon {
+  color: #0F1744;
+  margin:1rem;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.press-image {
+  /* max-width: 30%; */
+  max-height: 48px;
+  margin: 20px 20px 20px 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.pricing-column {
+  padding: 3% 2%;
+
+}
+.main-subheading {
+  color: white;
+  font-size:1.5rem;
+  padding-top: 50px;
+}
+/* Swivel Crads */
+
+.review {
+  color:black;
+}
+.overview {
+  color: black;
+}
+.cardswivel {
+  color: inherit;
+  cursor: pointer;
+  width: calc(12.5rem);
+  min-width: calc(12.5rem);
+  height: 16.6rem;
+  min-height: 16.6rem;
+  perspective: 1000px;
+  margin: 1rem auto;
+  position: relative;
+}
+/* @media screen and (max-width: 800px) {
+  .cardswivel {
+    width: calc(50% - 3rem);
+ }
+}
+@media screen and (max-width: 500px) {
+  .cardswivel {
+    width: 100%;
+ }
+} */
+.front, .back {
+  display: flex;
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: ease-in-out 600ms;
+}
+.front {
+  border:1px solid white;
+  background-size: cover;
+  padding: 2rem;
+  font-size: 1.618rem;
+  font-weight: 600;
+  color: #fff;
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+}
+.front:before {
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #1a9be6, #1a57e6);
+  opacity: 0.25;
+  z-index: -1;
+}
+.cardswivel:hover .front {
+  transform: rotateY(180deg);
+}
+.cardswivel:nth-child(even):hover .front {
+  transform: rotateY(-180deg);
+}
+.back {
+  background: #fff;
+  transform: rotateY(-180deg);
+  padding: 0 2em;
+}
+.cardswivel:hover .back {
+  transform: rotateY(0deg);
+}
+.cardswivel:nth-child(even) .back {
+  transform: rotateY(180deg);
+}
+.cardswivel:nth-child(even):hover .back {
+  transform: rotateY(0deg);
+}
+
+#features {
+  padding: 7% 3%;
+  background-color: #fff;
+position: relative;
+
+}
+
+#corporate {
+  /* background-color: #0F1744; */
+  text-align: center;
+  padding: 100px;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+#staff {
+  padding: 100px;
+  text-align: center;
+  background-color: #0F1744;
+  color: white;
+}
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#title {
+  background-color: black;
+}
+
+#location {
+/* padding-top: 7%; */
+/* padding-bottom:7%; */
+padding: 100px;
+  text-align: center;
+  /* background-color: #0F1744; */
+  color: #fff;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+/* CONTACT */
+
+#footer-contact {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+}
+#classes {
+  padding: 7%;
+  text-align: center;
+}

@@ -1,21 +1,436 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<link rel="stylesheet" href="Styles/styles.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <head>
-    <meta charset="utf-8">
-    <title>John Scott</title>
-  </head>
-  <body>
-    <h1>John Scott</h1>
-    <h3>Invercargill, New Zealand.</h3>
-    <h2>HTML, CSS, Swift(IOS), Python.</h2>
+<html>
 
-    <div class="contact-button">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=400, initial-scale=1">
+  <title>Contact</title>
 
-<a class="btn" href="https://www.iqajaq.net/" target="_blank">Contact Me</a>
+  <script defer src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <section id="title">
+    <div style="background: url('http://www.atoz-nz.com/assets/image/listings/invercargill/atoz_2447_1.jpg')" class="page-holder bg-cover">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.5)">
+        <div class="container-fluid">
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand" href="#"><img src="images/WF.png" alt="World Health and Fitness Gym" width="120" height="80"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml=auto">
+                <li class="nav-item">
+                  <a class="color-me" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="color-me" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="color-me" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="color-me" href="#classes">Classes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="color-me" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="color-me" href="#staff">Staff</a>
+                </li>
+                <li class="nav-item">
+                  <a class="color-me" href="#corporate">Corporate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="color-me" href="#location">Location</a>
+                </li>
+                <li class="nav-item">
+                  <a class="color-me" href="Contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <!-- Title -->
+          <div class="row">
+
+            <div class="col-lg-6">
+              <h1 class="big-heading" style="font-size:4rem;"><strong>Where Champions Are Made</strong></h1>
+              <br>
+              <br>
+<img class="proud" src="images/WHFPNZ.png" alt="World Health and Fitness Gym, Invercargill, Proudly New Zealand owned.">
+<h2 class="main-subheading">Take your fitness to the next level</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About our community gym -->
+  <section id="about">
+    <h1 class="medium-heading" style="color: white;">About our community gym...</h1>
+    <div class="row">
+    <div class="col-lg-6 col-md-12 feature-box">
+    <img src="images/community.jpg" class="about-photo" alt="World Health and Fitness Gym, Invercargill, Proudly New Zealand owned.">
+  </div>
+  <div class="col-lg-6 col-md-12 feature-box">
+  <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+</div>
+</div>
+  </div>
+
+  </section>
+  <!-- Classes -->
+
+  <section id="classes">
+    <h2 class="medium-heading" style="color:black;">Classes</h2>
+    <div class="row">
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-biking fa-7x"></i>
+        <h3 class="small-heading">Spin</h3>
+        <p>$7 / class</p>
+        <p>Mondays @ 6pm</p>
+        <p>50 minutes</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-child fa-7x"></i>
+        <h3 class="small-heading">Tension & Mobility</h3>
+        <p>Free to members</p>
+        <p>
+          Tuesdays & Thursdays @ 12pm
+        </p>
+        <p>
+          45 minutes
+        </p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-heart fa-7x"></i>
+        <h3 class="small-heading">HIT</h3>
+        <p>Free to members</p>
+        <p>
+          Monday, Wednesday and Friday at 12pm
+        </p>
+        <p>
+          45 minutes
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <h2 class="medium-heading" style="color: white; text-align: center;">Testimonials</h2>
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <h2 class="testimonial-body">“I started coming to the gym in mid-February and I was really nervous about going but everybody is really lovely, welcoming and willing to help/answer any questions I had. Since starting, I have lost over 8kg in weight.” </h2>
+              <img class="testimonial-image" src="images/testimon1.jpg" alt="Aimee, World Health andFitness Gym, Invercargill">
+              <em class="testimonial-name">Aimee.</em>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <h2 class="testimonial-body">“World Health and Fitness Gym provides an environment where people of all abilities can challenge themselves or be challenged by professional staff. This is a gym where you always feel comfortable and supported.”</h2>
+              <img class="testimonial-image" src="images/mark1.jpg" alt="Mark, World Health andFitness Gym, Invercargill">
+              <em class="testimonial-name">Mark.</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <h2 class="testimonial-body">“Since moving to World Health and Fitness a year ago, my body and self-esteem have completely transformed for the better. It meets all my needs as a gym with a huge range of equipment and weights for all levels of fitness.”  </h2>
+              <img class="testimonial-image" src="images/Janeya.jpg" alt="Janeya, World Health andFitness Gym, Invercargill">
+              <em class="testimonial-name">Janeya.</em>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <h2 class="testimonial-body">“My fitness journey began last year when I was 130kgs. Personal trainer Josh Gerken helped me transform into my best self and I have lost 40kgs. World Health and Fitness has a wide range of equipment, loads of room and friendly staff.”</h2>
+              <img class="testimonial-image" src="images/Ben.jpg" alt="Ben, World Health andFitness Gym, Invercargill">
+              <em class="testimonial-name">Ben.</em>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <h2 class="testimonial-body">“I love that I can just go into my own wee corner and get my workout done without having to wait to use gear because there is so much space, free weights and cardio equipment. I have lost 30kgs since starting at World Health and Fitness”  </h2>
+              <img class="testimonial-image" src="images/gloria.jpg" alt="Gloria, World Health andFitness Gym, Invercargill">
+              <em class="testimonial-name">Gloria.</em>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <h2 class="testimonial-body">“Since moving to World Health and Fitness a year ago, my body and self-esteem have completely transformed for the better. It meets all my needs as a gym with a huge range of equipment and weights for all levels of fitness.”</h2>
+              <img class="testimonial-image" src="images/Janeya.jpg" alt="Jenaya, World Health andFitness Gym, Invercargill">
+              <em class="testimonial-name">Jenaya.</em>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </button>
+    </div>
+
+  </section>
+  <!-- Pricing -->
+
+  
+
+    <div style="background: url('images/spinBikes.jpg')" class="page-holder bg-cover">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
+        <section id="pricing">
+
+    <h2 class="medium-heading" style="color: white;">Membership Plans</h2>
+    <p style="color: lightgray;">Membership plans to suit everyone</p>
+    <div class="row">
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="small-heading">Student</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="medium-heading">$8:80 / week</h2>
+            <p>$50 tag bond</p>
+            <p>$35.20 advance fee</p>
+            <p>StudentID required</p>
+            <p style="color: white;">White space</p>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="small-heading">Tertiary Student</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="medium-heading">$12.00 / week</h2>
+            <p>$50 tag bond</p>
+            <p>$48 advance fee</p>
+            <p>Student ID required</p>
+            <p style="color: white;">White space</p>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="small-heading">Adult</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="medium-heading">$13.60 / week</h2>
+            <p>$50 tag bond</p>
+            <p>$54 advance fee</p>
+           <p style="color: white;">White space</p>
+           <p style="color: white;">White space</p>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="small-heading">Corporate</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="medium-heading">$10.00 / week</h2>
+            <p>$50 tag bond</p>
+            <p>$40 advance fee</p>
+            <p>Proof of workplace required</p>
+            <p style="color: white;">White space</p>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="color: white;">Check out our corporate <a href="#corporate">section</a></p>
+</section>
+</div>
+</div>
+  <!-- Swivel Card -->
+
+  <section id="staff">
+    <h2 class="medium-heading">Meet Our Team</h2>
+    <p style="color: lightgray;">Our trainers will take your training to a new level through support and knowledge</p>
+<br>
+    <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h1 class="heading">Sid</h1>
+    
+        <div class="cardswivel">
+          <div class="front" style="background-image: url('https://static2.stuff.co.nz/1335442349/833/6814833.jpg');">
+            <img src="images/Syd.png" alt="Sid Cumming, World Health andFitness Gym, Invercargill"/>
+          </div>
+          <div class="back">
+            <div>
+              <p class="review">Sid Cumming.</p>
+              <p class="overview">Gym Owner, Cycling NZ Coach.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p class="description">Sid and Sharalyn have been owners in the gym industry for 30 years. You will usually find Sid riding a bike in the mornings, chatting with members, taking a spin class at night or maintaining the gym equipment. When Sid isn’t in the gym, he is working hard coaching for Cycling NZ.</p>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h1 class="heading">Zane</h1>
+    
+        <div class="cardswivel">
+          <div class="front" style="background-image: url('https://static2.stuff.co.nz/1335442349/833/6814833.jpg');">
+            <img src="images/Zane.png" alt="Zane Harris, World Health andFitness Gym, Invercargill"/>
+          </div>
+          <div class="back">
+            <div>
+              <p class="review">Zane Harris.</p>
+              <p class="overview">Operations Manager/Massage Therapist.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p class="description">Zane is our Jack of all trades. His main role is to look after the staff and ensure the gym is running smoothly. You might also find him training clients or maintaining equipment. Zane has also been a part of the World Health and Fitness crew for 15 years as the owner of Sportz Plus – our on-site Massage Therapy Clinic. </p>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h1 class="heading">Sharyn</h1>
+    
+        <div class="cardswivel">
+          <div class="front" style="background-image: url('https://static2.stuff.co.nz/1335442349/833/6814833.jpg');">
+            <img src="images/Syd.png" />
+          </div>
+          <div class="back">
+            <div>
+              <p class="review">Sharyn.</p>
+              <p class="overview">Gym Owner, Administrator.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p class="description">Sharyn and Doug have been owners in the gym industry for 30 years. You will usually find Sharyn popping in and out of the gym, ensuring the premises are clean and tidy for the members. Sharyn is also the other half of the admin team with her daughter Bex.</p>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h1 class="heading">Bex</h1>
+    
+        <div class="cardswivel">
+          <div class="front" style="background-image: url('https://static2.stuff.co.nz/1335442349/833/6814833.jpg');">
+            <img src="images/bex1.jpg" alt="Bex, World Health andFitness Gym, Invercargill"/>
+          </div>
+          <div class="back">
+            <div>
+              <p class="review">Bex Andrews.</p>
+              <p class="overview">Admin Assistant/Beauty Therapist.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p class="description">Being Doug and Sharyn’s daughter, Bex has been a part of the World Health and Fitness family for almost 30 years. Bex main role is to work hard behind the scenes looking after all the accounts and membership payments. Bex also owns Wicked Pretty – our on-site Beauty Therapy clinic. </p>
+      </div>
+      <br>
+      <a class="meet-text" style="text-decoration: underline;" href="staff.html">Meet the rest of our team</a>
+    </div>
+    <!-- </div> -->
+  </section>
+
+
+  <!-- Corporate -->
+
+  <section id="corporate">
+    <!-- <div class="container-fluid"> -->
+      <h2 class="medium-heading">Our Corporate Partners</h2>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <img class="press-image" src="images/Tiwai.jpg" alt="Tiwai Logo">
+          <p class="small-heading">Tiwai Smelter</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <img class="press-image" src="images/BlueSky.jpg" alt="BlueSky Logo">
+          <p class="small-heading">BlueSky Pastures</p>
+      </div>
+        <div class="col-lg-3 col-sm-6">
+          <img class="press-image" src="images/SDHB.jpg" alt="SDHB Logo">
+          <p class="small-heading">Southern District Health Board</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <img class="press-image" src="images/Police.jpg" alt="NZ Police Logo">
+          <p class="small-heading">New Zealand Police</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <img class="press-image" src="images/Alliance.jpg" alt="Alliance Logo">
+          <p class="small-heading">Alliance Farmers' Produce</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <img class="press-image" src="images/SPM.jpg" alt="SPM Logo">
+          <p class="small-heading">South Pacific Meats</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <img class="press-image" src="images/Fonterra.jpg" alt="Fonterra Logo">
+          <p class="small-heading">Fonterra</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <img class="press-image" src="images/powernet.jpg" alt="Powernet Logo">
+          <p class="small-heading">PowerNet</p>
+        </div>
+        <div class="col-lg-612 col-sm-12">
+          <img class="press-image" src="images/ICC.jpg" alt="ICC Logo">
+          <p class="small-heading">Invercargill City Council</p>
+          </div>
+
+    </div>
+  </section>
+
+  <!-- Location -->
+  
+  <div style="background: url('images/dumbBells.jpg')" class="page-holder bg-cover">
+    <div class="mask" style="min-height: 100%; background-color: rgba(0, 0, 0, 0.7);">
+      <section id="location">
+  
+    <h2 class="medium-heading">World Health and Fitness Gym Location</h2>
+    <p style="color: lightgrey;">45 Clyde Street, West Invercargill, Invercargill 9810.</p>
+    <br>
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2750.6494773904515!2d168.34487365167206!3d-46.41600508069687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa9d2c49924039a51%3A0xc7e9e8127c5ebdf5!2sWorld%20Health%20and%20Fitness!5e0!3m2!1sen!2snz!4v1618543755770!5m2!1sen!2snz"
+         height="500" style="text-align: center; border: 2px solid white; margin-top:  20px; margin-bottom: 20px; min-width: 80% ;" allowfullscreen="" loading="lazy"></iframe>
+         <p style="color:white;">Tel: +6432189387</p>
+    </div>
+    </div>
+  </section>
+</div>
 </div>
 
-  </body>
+  <!-- Footer -->
+
+  <footer id="footer" >
+
+    <i class="footer-icon fab fa-facebook fa-2x"></i>
+    <i class="footer-icon fab fa-twitter-square fa-2x"></i>
+    <i class="footer-icon fab fa-instagram fa-2x"></i>
+    <i class="footer-icon fas fa-envelope fa-2x"></i>
+    <p>© Copyright 2021 World Health and Fitness Gym, Invercargill.</p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+</body>
+
 </html>
