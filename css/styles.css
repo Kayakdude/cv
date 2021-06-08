@@ -105,20 +105,23 @@ body { width:100%; height:100%; margin:0; padding:0; }
 }
 /* about our gym */
 #about {
-  padding: 7%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 15%;
+  padding-right: 15%;
   background-color: #0F1744;
   text-align: center;
 }
 .about-text {
   text-align: left;
   color: white;
-
-  /* padding: 1rem; */
+ 
+  
 }
 .about-photo {
   border: 2px solid white;
   max-width: 80%;
-
+ 
 }
 
 /* Testimonial Text and Image */
@@ -330,9 +333,8 @@ position: relative;
 }
 
 #location {
-/* padding-top: 7%; */
-/* padding-bottom:7%; */
-padding: 100px;
+padding-top: 100px;
+padding-bottom: 100px;
   text-align: center;
   /* background-color: #0F1744; */
   color: #fff;
