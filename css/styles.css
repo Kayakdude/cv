@@ -320,7 +320,10 @@ position: relative;
   text-align: center;
 }
 #staff {
-  padding: 100px;
+  padding-bottom: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 7%;
   text-align: center;
   background-color: #0F1744;
   color: white;
@@ -336,8 +339,10 @@ position: relative;
 }
 
 #location {
-padding-top: 100px;
-padding-bottom: 100px;
+  padding-bottom: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 7%;
   text-align: center;
   /* background-color: #0F1744; */
   color: #fff;
