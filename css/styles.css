@@ -121,7 +121,7 @@ body { width:100%; height:100%; margin:0; padding:0; }
 .about-photo {
   border: 2px solid white;
   max-width: 80%;
- 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
 }
 
 /* Testimonial Text and Image */
@@ -259,6 +259,7 @@ body { width:100%; height:100%; margin:0; padding:0; }
   backface-visibility: hidden;
   transform-style: preserve-3d;
   transition: ease-in-out 600ms;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
 }
 .front {
   border:1px solid white;
@@ -269,6 +270,7 @@ body { width:100%; height:100%; margin:0; padding:0; }
   color: #fff;
   overflow: hidden;
   font-family: Poppins, sans-serif;
+  
 }
 .front:before {
   position: absolute;
