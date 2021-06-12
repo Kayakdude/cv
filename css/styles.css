@@ -4,6 +4,9 @@
 @media (max-width: 990px) {
     :root { --particular-ad: url(images/spottingsquare.jpg); }
 }
+@media (max-width: 600px) {
+  :root { --particular-ad: url(images/spottingsmall.jpg); }
+}
 :root { --particular-ad2: url(images/spotting.jpg); }
 
 @media (max-width: 990px) {
