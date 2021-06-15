@@ -1,4 +1,5 @@
 /* Deal with image transition for screen size */
+/* index.html */
 :root { --particular-ad: url(images/WHFfront.jpg); }
 
 @media (max-width: 990px) {
@@ -7,10 +8,11 @@
 @media (max-width: 600px) {
   :root { --particular-ad: url(images/spottingsmall.jpg); }
 }
+/* Contact.html */
 :root { --particular-ad2: url(images/spotting.jpg); }
 
 @media (max-width: 990px) {
-    :root { --particular-ad2: url(images/spottingsquare.jpg); }
+    :root { --particular-ad2: url(images/gymshark.jpg); }
 }
 
 
@@ -110,6 +112,10 @@ body { width:100%; height:100%; margin:0; padding:0; }
 .medium-heading {
   font-size: 3rem;
   line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+.small-heading-corp {
+  font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
 }
 .small-heading {
@@ -400,4 +406,10 @@ position: relative;
 #classes {
   padding: 7%;
   text-align: center;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
