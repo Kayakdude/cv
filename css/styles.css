@@ -1,18 +1,14 @@
 /* Deal with image transition for screen size */
 /* index.html */
-:root { --particular-ad: url(images/WHFfront.jpg); }
+:root { --particular-ad: url(images/WHFfrontS.jpg); }
 
 @media (max-width: 990px) {
-    :root { --particular-ad: url(images/spottingsquare.jpg); }
+    :root { --particular-ad: url(images/spottingsmallS.jpg); }
 }
-@media (max-width: 600px) {
-  :root { --particular-ad: url(images/spottingsmall.jpg); }
-}
-/* Contact.html */
-:root { --particular-ad2: url(images/spotting.jpg); }
+:root { --particular-ad2: url(images/spottingS.jpg); }
 
 @media (max-width: 990px) {
-    :root { --particular-ad2: url(images/gymshark.jpg); }
+    :root { --particular-ad2: url(images/gymsharkS.jpg); }
 }
 
 
@@ -50,17 +46,22 @@ body { width:100%; height:100%; margin:0; padding:0; }
   padding: 3%;
   text-decoration: none;
 }
+
 .color-me {
   color: white;
-  font-size:1.2rem;
+  font-size:1.1rem;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  margin: 8px;;
+
 }
 .color-me:hover{
-  font-size:1.2rem;
+  font-size:1.1rem;
   color:red;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  margin: 8px;
+  
 }
 @media only screen and (max-width: 990px) {
   .color-me {
